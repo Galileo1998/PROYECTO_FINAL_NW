@@ -1,0 +1,33 @@
+body{
+  text-align: center;
+  font-family: 'Ropa Sans', sans-serif;
+    background-color: #e8dfdf;
+}
+
+
+.div_contactanos{
+box-sizing: border-box;
+border: solid 2px;
+border-color: green;
+text-align: center;
+width: 700px;
+max-width: 95%;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Ropa Sans', sans-serif;
+
+}
+
+#txtEmail{
+  margin-top: 1em;
+}
+
+#lblEmail{
+  padding-top: 1em;
+}
+
+#txtComentario{
+  margin-top: 2em;
+  width: 300px;
+  height: 70px;
+}

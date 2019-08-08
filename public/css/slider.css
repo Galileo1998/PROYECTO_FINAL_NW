@@ -1,0 +1,16 @@
+
+.sliderItem {
+    position: absolute;
+    width: 100%;
+    min-height: 90vh;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    background-color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 4em;
+    transition: left 1s;
+}

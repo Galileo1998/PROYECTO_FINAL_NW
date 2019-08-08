@@ -1,0 +1,159 @@
+main {
+margin: 100vh 0px 0px 0px;
+padding: 5vw;
+  font-family: 'Ropa Sans', sans-serif;
+
+}
+main h2{
+  color: #000;
+    font-family: 'Ropa Sans', sans-serif;
+
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+body {
+  background-color: #e8dfdf;
+  color: #fff;
+  font-size: 16px;
+  font-size: 100%;
+  font-size: 1em;
+  padding: 0px;
+  padding: 0px;
+  margin: 0px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+header {
+  width: 100%;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  background-color: #3b6c6b;
+}
+header nav h1 {/*titulo*/
+  font-size: 1em;
+  margin-left: 10px;
+  margin-top: 0px;
+  height: 64px;
+}
+
+header nav {
+  /*position: relative;*/
+  width: 100%;
+}
+
+header nav .hmb {/*hamburquesa*/
+  position: relative;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: -60px 0px 1em 30px;
+}
+
+header nav .hmb div{/*hamburguesa*/
+  background-color: #fefefe;
+  height: 8px;
+  border-radius: 4px;
+  width:100%;
+
+}
+
+header nav ul {
+  /*position: absolute;*/
+  position:relative;
+  width: 100%;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  transition: max-height 0.6s ease;
+  overflow: hidden;
+  background-color: /*#427877*/#e8dfdf;
+}
+header nav ul.hidden {/*menu oculto*/
+  max-height: 0px;
+}
+header nav ul li{
+background-color: #e8dfdf;
+  width: 25%;
+}
+header nav ul li a {/*estilo a menu*/
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0.75em 1em;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  border-bottom: 3px solid #427877;
+}
+
+
+header nav ul li:hover .sub {
+	display:block;
+  float:none;
+  margin: 0px auto;
+  background-color: #427877;
+margin-left: 25%;
+
+
+}
+header nav ul li .sub  {/*oculta submenu*/
+	display: none;
+  float:none;
+  width: 200px;
+
+}
+header nav ul li .sub li {
+  margin-left: -25%;
+}
+header nav ul li .sub li a{
+  margin-left: 100px;
+  color: #fefefe;
+}
+.fondo{
+  padding: 0px;
+  box-sizing: border-box;
+  width:100%;
+  height:80vh;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  transition: left 4s;
+  display:block;
+  left: 0px;
+  top: 0px;
+}
+
+
+footer{
+  margin: 0px 0px 0px 0px;
+  padding: 5vw;
+  background-color: #130101;
+
+}
+@media (min-width:568px){
+  header nav ul.hidden{
+    max-height: 100vh;
+  }
+
+  header nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+  }
+  header nav ul li a{
+    width: 100%;
+  }
+  #menuhmb{
+    display: none;
+  }
+}

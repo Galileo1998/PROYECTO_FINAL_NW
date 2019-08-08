@@ -1,0 +1,113 @@
+/*TITULO 2*/
+img{
+  width: 400px;
+  height: 400px;
+}
+.cajas{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.cajas_8{
+  width: 60%;
+  border-radius: 25%;
+  overflow: hidden;
+  margin: 20px 0;
+  border: 30px;
+  border: rgb(92, 167, 135) 5px solid;
+}
+
+.cajas_8 img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.A:hover{
+    border: rgb(52, 105, 82) 5px solid;
+}
+
+.B:hover{
+    border: rgb(52, 105, 82)  5px solid;
+}
+
+.C:hover{
+    border: rgb(52, 105, 82)  5px solid;
+}
+
+.D:hover{
+    border: rgb(52, 105, 82)  5px solid;
+}
+
+.E:hover{
+    border: rgb(52, 105, 82) 5px solid;
+}
+
+.F:hover{
+    border: rgb(52, 105, 82)  5px solid;
+}
+
+.G:hover{
+    border: rgb(52, 105, 82)  5px solid;
+}
+
+.H:hover{
+    border: rgb(52, 105, 82)  5px solid;
+}
+
+
+/*Tableta*/
+@media screen and (min-width: 768px) {
+  .cajas_8{
+      width: 40%;
+      margin: 20px 20px;
+  }
+
+  .cajas{
+      flex-flow: wrap;
+      width: 80%;
+      margin: auto;
+      justify-content: center;
+  }
+}
+
+/*Estilos para computador portatil*/
+@media  screen and (min-width: 960px){
+  .cajas_8{
+      width: 28%;
+      margin: 20px 20px;
+  }
+
+  .cajas{
+      flex-flow: wrap;
+      width: 80%;
+      margin: auto;
+      justify-content: center;
+  }
+
+  .cajas_8:nth-child(7), .cajas_8:nth-child(8)
+  {
+    display: none;
+  }
+}
+
+/*Estilos para computador portatil*/
+@media  screen and (min-width: 1024px){
+  .cajas_8{
+      width: 21%;
+      margin: 20px 10px;
+  }
+
+  .cajas{
+      flex-flow: wrap;
+      width: 80%;
+      margin: auto;
+      justify-content: center;
+  }
+
+  .cajas_8:nth-child(7), .cajas_8:nth-child(8)
+  {
+    display: block;
+  }
+}
